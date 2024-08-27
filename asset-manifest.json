@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.b84fcba4.css",
+    "main.css": "/Portofolio/static/css/main.0a1dd5e7.css",
     "main.js": "/Portofolio/static/js/main.a4f660aa.js",
     "static/media/fotoprofile.png": "/Portofolio/static/media/fotoprofile.7587893c8e6edddcce53.png",
     "static/media/me5.jpg": "/Portofolio/static/media/me5.1c72e2f0a12f1d21ef12.jpg",
@@ -9,11 +9,11 @@
     "static/media/cliniconline.png": "/Portofolio/static/media/cliniconline.cac13cb26c83495efb75.png",
     "static/media/Jadwal.jpg": "/Portofolio/static/media/Jadwal.c6307e078e1341807acd.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.b84fcba4.css.map": "/Portofolio/static/css/main.b84fcba4.css.map",
+    "main.0a1dd5e7.css.map": "/Portofolio/static/css/main.0a1dd5e7.css.map",
     "main.a4f660aa.js.map": "/Portofolio/static/js/main.a4f660aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.b84fcba4.css",
+    "static/css/main.0a1dd5e7.css",
     "static/js/main.a4f660aa.js"
   ]
 }
