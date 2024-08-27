@@ -18,8 +18,8 @@ const Porto = () => {
 					</div>
 					<h3>Kos Bujang</h3>
 					<div className="porto_item-cta">
-						<a href='https://github.com/RickyChandrean/Boarding-House-Project' className='btn' target='_blank'>Github</a>
-						<a href='https://drive.google.com/file/d/1NVQOIFj1DvwBBFEHIW7FZn5KaSb5Ax65/view?usp=sharing' className='btn btn-primary' target='_blank'>Live Demo</a>
+						<a href='https://github.com/RickyChandrean/Boarding-House-Project' className='btn' target='_blank' rel='noopener noreferrer'>Github</a>
+						<a href='https://drive.google.com/file/d/1NVQOIFj1DvwBBFEHIW7FZn5KaSb5Ax65/view?usp=sharing' className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
 					</div>
 				</article>
 				<article className='porto_item'>
@@ -28,8 +28,8 @@ const Porto = () => {
 					</div>
 					<h3>Clinic Online</h3>
 					<div className="porto_item-cta">
-						<a href='https://github.com/RickyChandrean/Pharmo' className='btn' target='_blank'>Github</a>
-						<a href='https://drive.google.com/file/d/1wd_OHgC7sMBANkD4lsWSn3lJxbmPpzEU/view?usp=sharing' className='btn btn-primary' target='_blank'>Live Demo</a>
+						<a href='https://github.com/RickyChandrean/Pharmo' className='btn' target='_blank' rel='noopener noreferrer'>Github</a>
+						<a href='https://drive.google.com/file/d/1wd_OHgC7sMBANkD4lsWSn3lJxbmPpzEU/view?usp=sharing' className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
 					</div>
 				</article>
 				<article className='porto_item'>
@@ -38,8 +38,8 @@ const Porto = () => {
 					</div>
 					<h3>Porto Title</h3>
 					<div className="porto_item-cta">
-						<a href='https://github.com/RickyChandrean/Aplikasi-Jadwal' className='btn' target='_blank'>Github</a>
-						<a href='https://drive.google.com/file/d/1-p4nwEKNicr8mQTOQMCMppMtNV1cPFWz/view?usp=sharing ' className='btn btn-primary' target='_blank'>Live Demo</a>
+						<a href='https://github.com/RickyChandrean/Aplikasi-Jadwal' className='btn' target='_blank' rel='noopener noreferrer'>Github</a>
+						<a href='https://drive.google.com/file/d/1-p4nwEKNicr8mQTOQMCMppMtNV1cPFWz/view?usp=sharing ' className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
 					</div>
 				</article>
 
