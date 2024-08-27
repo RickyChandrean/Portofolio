@@ -1,10 +1,10 @@
-.porto_container{
+.porto_container {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 2.5rem;
 }
 
-.porto_item{
+.porto_item {
 	background: var(--color-bg-variant);
 	padding: 1.3rem;
 	border-radius: 2rem;
@@ -15,21 +15,30 @@
 	text-align: center;
 }
 
-.porto_item:hover{
+.porto_item:hover {
 	border-color: var(--color-primary-variant);
 	background: transparent;
 }
 
-.porto_item-img{
+.porto_item-img {
 	border-radius: 1.5rem;
 	overflow: hidden;
+	width: 100%; /* Ensure the container takes up full width */
+	height: 200px;
 }
 
-.porto_item h3{
+.porto_item-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Cover the container, cropping if necessary */
+	display: block; /* Remove any extra space below the image */
+}
+
+.porto_item h3 {
 	margin: 1.5rem 0 2rem;
 }
 
-.porto_item-cta{
+.porto_item-cta {
 	display: flex;
 	gap: 1rem;
 	margin-bottom: 1rem;
@@ -37,17 +46,16 @@
 }
 
 /* Medium media  */
-@media screen and (max-width:1024px) {
-	.porto_container{
+@media screen and (max-width: 1024px) {
+	.porto_container {
 		grid-template-columns: 1fr 1fr;
 		gap: 1.2rem;
 	}
-
 }
 
 /* small media */
-@media screen and (max-width:600px) {
-	.porto_container{
+@media screen and (max-width: 600px) {
+	.porto_container {
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}
