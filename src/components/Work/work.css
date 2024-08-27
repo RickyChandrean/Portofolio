@@ -1,0 +1,85 @@
+.work_container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.work_container > div {
+	background: var(--color-bg-variant);
+	padding: 2.4rem;
+	border-radius: 2rem;
+	border: 1px solid transparent;
+	transition: var(--transition);
+}
+
+.work_container > div:hover {
+	background: transparent;
+	border-color: var(--color-primary-variant);
+	cursor: default;
+}
+
+.internship:hover .internDetail ul li {
+	color: white; /* Change text color to white when hovering over the parent */
+}
+
+.work_container > div h3 {
+	text-align: center;
+	color: var(--color-primary);
+}
+
+.subtitle {
+	display: grid;
+	/* justify-content: center;
+	text-align: center; */
+	color: var(--color-primary);
+	margin-bottom: 2rem;
+	grid-template-columns: 1fr 1fr;
+}
+
+.company {
+	float: left;
+	color: var(--color-white);
+}
+
+.range {
+	text-align: right;
+	float: right;
+}
+
+.internDetail {
+	margin-left: 1rem;
+}
+
+.internDetail ul {
+	list-style-type: disc;
+}
+.experience_detail-icons {
+	margin-top: 6px;
+	color: var(--color-primary);
+}
+
+/* Medium media  */
+@media screen and (max-width: 1024px) {
+	.work_container {
+		grid-template-columns: 1fr;
+	}
+
+	.work_container > div {
+		width: 80%;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+}
+
+/* small media */
+@media screen and (max-width: 600px) {
+	.work_container {
+		gap: 1rem;
+	}
+
+	.work_container > div {
+		width: 100%;
+		padding: 2rem 1rem;
+	}
+}

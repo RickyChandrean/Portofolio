@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './nav.css'
-import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineFile, AiOutlineMessage } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineUser, AiOutlineTeam, AiOutlineProject, AiOutlineFile, AiOutlineMessage } from 'react-icons/ai'
 import { useState } from 'react'
 const Nav = () => {
 	const [activeNav, setActiveNav] = useState('#')
@@ -13,11 +13,15 @@ const Nav = () => {
 			</div>
 			<div className="testing">
 				<a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? 'active' : ''}><AiOutlineUser /></a>
-				<span>About</span>
+				<span>Profile</span>
+			</div>
+			<div className="testing">
+				<a href="#work" onClick={() => setActiveNav("#work")} className={activeNav === "#work" ? 'active' : ''}><AiOutlineTeam /></a>
+				<span>Experience</span>
 			</div>
 			<div className="testing">
 				<a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? 'active' : ''}><AiOutlineProject /></a>
-				<span>Experience</span>
+				<span>Skills</span>
 			</div>
 			<div className="testing">
 				<a href="#Portofolio" onClick={() => setActiveNav("#Portofolio")} className={activeNav === "#Portofolio" ? 'active' : ''}><AiOutlineFile /></a>
