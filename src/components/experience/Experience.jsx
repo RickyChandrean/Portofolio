@@ -53,6 +53,13 @@ const Experience = () => {
 						<article className='experience_detail'>
 							<BsPatchCheckFill className='experience_detail-icons' />
 							<div>
+								<h4>Groovy</h4>
+								<small className='text-light'>Intermediate</small>
+							</div>
+						</article>
+						<article className='experience_detail'>
+							<BsPatchCheckFill className='experience_detail-icons' />
+							<div>
 								<h4>Node Js</h4>
 								<small className='text-light'>Intermediate</small>
 							</div>
@@ -97,6 +104,13 @@ const Experience = () => {
 				<div className="experience-frontend">
 					<h3>Other Skills Learned</h3>
 					<div className="experience_content">
+						<article className='experience_detail'>
+							<BsPatchCheckFill className='experience_detail-icons' />
+							<div>
+								<h4>Git</h4>
+								<small className='text-light'>Intermediate</small>
+							</div>
+						</article>
 						<article className='experience_detail'>
 							<BsPatchCheckFill className='experience_detail-icons' />
 							<div>
